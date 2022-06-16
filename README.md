@@ -10,13 +10,13 @@ Date: June, 2022
 ### Lamport Algorithm for Mutual Exclusion Demo
 
 ```shell
-python3 main.py --algo=LA --node_num=4 --runtime=100000
+python3 main.py --algo=LA --node_num=4 --runtime=2 --begin_port=20000
 ```
 
 ### RA Algorithm for Mutual Exclusion Demo
 
 ```
-python3 main.py --algo=RA --node_num=4 --runtime=100000
+python3 main.py --algo=RA --node_num=4 --runtime=2 --begin_port=30000
 ```
 
 ### Parameters
@@ -26,3 +26,5 @@ python3 main.py --algo=RA --node_num=4 --runtime=100000
 --node_num: number of process
 
 --runtime: number of request per node
+
+--begin_port: socket port
